@@ -36,7 +36,7 @@ def c_route(text):
         text (str): The text to be displayed.
 
     Returns:
-        str: A string containing the text "C " followed by the input text with underscores replaced by spaces.
+        str: A string containing the text "C " followed by replaced by spaces
     """
     return "C " + text.replace("_", " ")
 
@@ -51,7 +51,7 @@ def python_route(text="is cool"):
         text (str): The text to be displayed. Defaults to "is cool".
 
     Returns:
-        str: A string containing the text "Python " followed by the input text with underscores replaced by spaces.
+        str: A string containing the text "Python " followed _ replaced by spaces.
     """
     return "Python " + text.replace("_", " ")
 
